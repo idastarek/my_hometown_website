@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/lublin4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    /* position: relative; */
+    min-height: 350px;
+    padding-top: 100px;
+    font-family: "Just Another Hand", cursive;
+}
+
+.title {
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    background: #2E8AB1;
+    padding: 4px 8px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-size: 30px;
+}
+
+.title:hover {
+    background: #35A0CD;
+}
+
+#activities-section, #food-section {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    background: #F1E8E4;
+    padding: 20px 40px;
+    color: #0E3F58;
+}
+
+#food-section {
+    background: #D5CECA;
+}
+
+.section-title {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#activities-imgs, #food-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 18px;
+    max-width: 200px;
+    /* border: 3px solid black; */
+}
+
+.activities-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
