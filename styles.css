@@ -16,7 +16,8 @@ body {
     /* position: relative; */
     min-height: 350px;
     padding-top: 100px;
-    font-family: "Just Another Hand", cursive;
+    /* font-family: "Just Another Hand"; */
+    font-family: "Pacifico", serif;
 }
 
 .title {
@@ -45,7 +46,7 @@ body {
 }
 
 #food-section {
-    background: #D5CECA;
+    background: #E4EAF1;
 }
 
 .section-title {
